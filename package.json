@@ -1,0 +1,20 @@
+{
+  "name": "website-watcher",
+  "version": "1.0.0",
+  "description": "The Website Watcher project is a simple tool for monitoring changes in specified sections of HTML files. It can be used to track content changes in websites and receive alerts when predefined keywords are detected.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7"
+  }
+}
